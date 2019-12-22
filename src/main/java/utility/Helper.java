@@ -19,6 +19,13 @@ public class Helper {
 		
 	}
 	
+	public void type(WebElement element) {
+		
+		element.sendKeys("test");
+		
+		
+	}
+	
 	public static Properties readPropertyFile(String path) throws IOException {
 		
 		FileInputStream f = new FileInputStream(new File(path));
